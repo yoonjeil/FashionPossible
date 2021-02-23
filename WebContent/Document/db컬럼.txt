@@ -1,0 +1,16 @@
+회원 db 
+	-id ,pw, name ,email,zipnum,address,phone,indate,등급,마일리지,회원상태(yn 탈퇴여부)
+상품 db
+	-상품번호,상품이름,상품종류(모자,상의등),가격,상품설명,이미지,상품상태(사용중,비사용중)
+카트 db 
+	-카트번호,사용자id,상품수량,상품번호,indate
+오더 db
+	-오더번호,사용자id,indate
+리뷰 db 
+	-리뷰번호,사용자id,상품번호,indate,별갯수
+qna db
+	-qna번호,제목,내용,답변,사용자id,답변여부,indate
+쿠폰 db 
+	-쿠폰코드,쿠폰내용,사용자id,indate
+	
+db : user09	
